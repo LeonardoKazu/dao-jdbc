@@ -5,7 +5,7 @@
 
 ## Pré-requisitos : 
   Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas :
-  [Git](https://git-scm.com), [Java](https://www.java.com/pt-BR/), [MySQL](https://www.mysql.com/downloads/). 
+  [Git](https://git-scm.com), [Java](https://www.java.com/pt-BR/) [JDK-21], [MySQL](https://www.mysql.com/downloads/). 
   
   Além disto é bom ter um editor para trabalhar com o código como [IntelliJ](https://www.jetbrains.com/idea/download/?section=windows) obs: Foi utilizado a versão Community Edition(gratuito)
 
