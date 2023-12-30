@@ -111,7 +111,8 @@ public class SellerDaoJDBC implements SellerDao {
                 "SELECT seller.*,department.Name as DepName "
                     +"FROM seller INNER JOIN department "
                     +"ON seller.DepartmentId = department.Id "
-                    +"WHERE seller.Id = ?"
+                    +"WHERE seller.Id = ? "
+                    +"ORDER BY Id"
             );
             st.setInt(1,id);
             rs = st.executeQuery();
@@ -160,7 +161,7 @@ public class SellerDaoJDBC implements SellerDao {
                     "SELECT seller.*,department.Name as DepName "
                             +"FROM seller INNER JOIN department "
                             +"ON seller.DepartmentId = department.Id "
-                            +"ORDER BY Name"
+                            +"ORDER BY Id"
             );
 
             rs = st.executeQuery();
@@ -201,7 +202,7 @@ public class SellerDaoJDBC implements SellerDao {
                     +"FROM seller INNER JOIN department "
                     +"ON seller.DepartmentId = department.Id "
                     +"WHERE DepartmentId = ? "
-                    +"ORDER BY Name"
+                    +"ORDER BY Id"
             );
             st.setInt(1,department.getId());
 
