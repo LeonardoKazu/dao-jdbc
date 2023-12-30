@@ -13,3 +13,6 @@
 $ git clone https://github.com/LeonardoKazu/dao-jdbc.git
 
 após clonar o projeto modifique o arquivo db.properties colocando o seu user/password e dburl(caminho do BancoDeDados que será acessado) troque o caminho [ /coursejdbc ] para o banco de dados de sua escolha.
+
+#Testar o código! :
+Para testar este código vá em application e use Program ou Program2, os executáveis estão separados apenas para ser mais simples de se entender pois 1 modifica (seller) e o outro apenas (department), espero que esteja de simples compreensão caso haja dúvidas ou talvez sugestões me disponho a responder!.  
